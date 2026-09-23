@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TermoTek Pro | 7/24 Garantili İklimlendirme & Teknik Ev Servisi</title>
+  <meta name="description" content="Kombi, klima, tesisat ve akıllı ev sistemlerinde TSE belgeli uzman kadro, 30 dakikada kapınızda! 1 yıl resmi işçilik ve parça garantisi." />
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f7ff',
+              100: '#e0effe',
+              500: '#0284c7',
+              600: '#0369a1',
+              700: '#075985',
+              800: '#0c4a6e',
+              900: '#082f49',
+            },
+            accent: {
+              500: '#f97316',
+              600: '#ea580c',
+              700: '#c2410c',
+            },
+            emerald: {
+              500: '#10b981',
+              600: '#059669',
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="font-sans bg-slate-50 text-slate-800 antialiased selection:bg-brand-500 selection:text-white pb-16 md:pb-0">
+
+  <!-- 1. Üst Acil Durum & Bilgi Çubuğu -->
+  <div class="bg-slate-900 text-slate-300 text-xs sm:text-sm py-2 px-4 border-b border-slate-800 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center space-x-2">
+        <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-red-500/20 text-red-400 animate-pulse border border-red-500/30">
+          <span class="w-1.5 h-1.5 rounded-full bg-red-500 mr-1.5 animate-ping"></span>
+          CANLI: NÖBETÇİ EKİP AKTİF
+        </span>
+        <span class="hidden sm:inline text-slate-400">|</span>
+        <span class="hidden sm:inline text-slate-300 font-medium">Bölgenize ortalama varış süresi: <strong class="text-white font-bold underline decoration-brand-500">28 Dakika</strong></span>
+      </div>
+
+      <div class="flex items-center space-x-4">
+        <div class="flex items-center text-amber-400 text-xs font-semibold">
+          <i data-lucide="star" class="w-3.5 h-3.5 fill-current mr-1"></i>
+          <span>4.9 / 5 Google Puanı (1.420+ Değerlendirme)</span>
+        </div>
+        <a href="tel:08503004050" class="hidden md:flex items-center text-white hover:text-brand-300 font-bold tracking-wide transition">
+          <i data-lucide="phone-call" class="w-3.5 h-3.5 mr-1.5 text-accent-500"></i>
+          0850 300 40 50
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Ana Navigasyon / Header -->
+  <header class="bg-white/95 backdrop-blur-md border-b border-slate-200 sticky top-[37px] sm:top-[41px] z-40 transition-all duration-300 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Marka Logo -->
+      <a href="#" class="flex items-center space-x-3 group">
+        <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-brand-700 via-brand-600 to-accent-500 flex items-center justify-center text-white shadow-lg shadow-brand-500/25 group-hover:scale-105 transition-transform duration-300">
+          <i data-lucide="flame" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <span class="text-2xl font-extrabold tracking-tight text-slate-900 flex items-center">
+            Termo<span class="text-brand-600">Tek</span>
+            <span class="ml-1.5 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-slate-900 text-white rounded">PRO</span>
+          </span>
+          <p class="text-[11px] font-medium text-slate-500 -mt-0.5">İklimlendirme & Akıllı Tesisat</p>
+        </div>
+      </a>
+
+      <!-- Masaüstü Linkler -->
+      <nav class="hidden lg:flex items-center space-x-8 text-sm font-semibold text-slate-600">
+        <a href="#hizmetler" class="hover:text-brand-600 transition">Hizmetlerimiz</a>
+        <a href="#hesaplayici" class="hover:text-brand-600 transition flex items-center gap-1.5">
+          <span>Fiyat Hesapla</span>
+          <span class="px-1.5 py-0.5 text-[10px] font-bold bg-accent-500 text-white rounded-full">Yeni</span>
+        </a>
+        <a href="#oncesi-sonrasi" class="hover:text-brand-600 transition">İş Kalitesi</a>
+        <a href="#guvenceler" class="hover:text-brand-600 transition">Neden Biz?</a>
+        <a href="#yorumlar" class="hover:text-brand-600 transition">Yorumlar</a>
+        <a href="#sss" class="hover:text-brand-600 transition">S.S.S.</a>
+      </nav>
+
+      <!-- Aksiyon Butonları -->
+      <div class="hidden sm:flex items-center space-x-3">
+        <a href="https://wa.me/908503004050?text=Merhaba,%20acil%20teknik%20servis%20talep%20etmek%20istiyorum." target="_blank" class="px-4 py-2.5 rounded-xl border border-emerald-500/40 text-emerald-700 bg-emerald-50 hover:bg-emerald-100 font-semibold text-sm flex items-center gap-2 transition">
+          <i data-lucide="message-circle" class="w-4 h-4 text-emerald-600"></i>
+          WhatsApp Servis
+        </a>
+        <a href="#randevu" class="px-5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm shadow-md shadow-brand-600/30 hover:shadow-lg transition transform active:scale-95 flex items-center gap-2">
+          <i data-lucide="calendar" class="w-4 h-4"></i>
+          Randevu Oluştur
+        </a>
+      </div>
+
+      <!-- Mobil Menü Butonu -->
+      <button id="mobile-menu-btn" aria-label="Menüyü Aç" class="lg:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobil Açılır Menü -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-200 bg-white px-4 pt-3 pb-6 space-y-3 shadow-xl">
+      <a href="#hizmetler" class="mobile-nav-link block px-3 py-2 rounded-lg font-semibold text-slate-700 hover:bg-slate-100">Hizmetlerimiz</a>
+      <a href="#hesaplayici" class="mobile-nav-link block px-3 py-2 rounded-lg font-semibold text-slate-700 hover:bg-slate-100 flex items-center justify-between">
+        <span>Fiyat Hesaplama Aracı</span>
+        <span class="px-2 py-0.5 text-xs font-bold bg-accent-500 text-white rounded-full">İnteraktif</span>
+      </a>
+      <a href="#oncesi-sonrasi" class="mobile-nav-link block px-3 py-2 rounded-lg font-semibold text-slate-700 hover:bg-slate-100">İş Kalitesi & Referanslar</a>
+      <a href="#guvenceler" class="mobile-nav-link block px-3 py-2 rounded-lg font-semibold text-slate-700 hover:bg-slate-100">Garantiler & Yetki Belgeleri</a>
+      <a href="#yorumlar" class="mobile-nav-link block px-3 py-2 rounded-lg font-semibold text-slate-700 hover:bg-slate-100">Müşteri Yorumları</a>
+      <a href="#sss" class="mobile-nav-link block px-3 py-2 rounded-lg font-semibold text-slate-700 hover:bg-slate-100">Sıkça Sorulan Sorular</a>
+      <div class="pt-2 flex flex-col gap-2">
+        <a href="tel:08503004050" class="w-full text-center py-3 rounded-xl bg-accent-600 text-white font-bold flex items-center justify-center gap-2">
+          <i data-lucide="phone-call" class="w-4 h-4"></i>
+          Hemen Ara: 0850 300 40 50
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 3. Hero Bölümü -->
+    <section class="relative overflow-hidden bg-gradient-to-b from-brand-50/60 via-white to-slate-50 pt-10 pb-20 lg:pt-16 lg:pb-28">
+      <!-- Arka Plan Efektleri -->
+      <div class="absolute inset-0 pointer-events-none overflow-hidden">
+        <div class="absolute -top-40 right-0 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute top-1/2 left-0 w-80 h-80 bg-accent-500/10 rounded-full blur-3xl"></div>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Sol Metin Alanı -->
+          <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-100 text-brand-800 text-xs sm:text-sm font-bold border border-brand-200 shadow-sm">
+              <i data-lucide="shield-check" class="w-4 h-4 text-brand-600"></i>
+              <span>TSE & MYK Onaylı 1 Yıl Garantili Hizmet</span>
+            </div>
+
+            <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
+              Evinizin Konforunu <br class="hidden sm:inline" />
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-accent-600">Garantili ve Hızlı</span> Şekilde Çözüyoruz.
+            </h1>
+
+            <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+              Kombi, klima arıza/bakım, kameralı su kaçağı tespiti ve akıllı ev iklimlendirmesinde <strong>sürpriz ek maliyet olmadan</strong>, sabit fiyat garantisi ve 30 dakikada hızlı mobil servis desteği.
+            </p>
+
+            <!-- Aksiyon Butonları -->
+            <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+              <a href="tel:08503004050" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-accent-600 hover:bg-accent-700 text-white font-extrabold text-base shadow-xl shadow-accent-600/30 hover:shadow-2xl transition transform hover:-translate-y-0.5 flex items-center justify-center gap-3">
+                <i data-lucide="phone-call" class="w-5 h-5 animate-bounce"></i>
+                <span>30 Dk'da Acil Servis Çağır</span>
+              </a>
+              <a href="#hesaplayici" class="w-full sm:w-auto px-7 py-4 rounded-2xl bg-white hover:bg-slate-100 text-slate-800 border-2 border-slate-200 font-bold text-base shadow-sm hover:border-brand-500 transition flex items-center justify-center gap-2">
+                <i data-lucide="calculator" class="w-5 h-5 text-brand-600"></i>
+                <span>Tahmini Fiyat Hesapla</span>
+              </a>
+            </div>
+
+            <!-- Güven Göstergeleri (Micro Trust Icons) -->
+            <div class="pt-6 border-t border-slate-200/80 grid grid-cols-2 sm:grid-cols-3 gap-4 text-left">
+              <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+                  <i data-lucide="check-check" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-sm text-slate-900">Sabit Fiyat</h4>
+                  <p class="text-xs text-slate-500">İş öncesi net teklif</p>
+                </div>
+              </div>
+
+              <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center shrink-0">
+                  <i data-lucide="shield" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-sm text-slate-900">1 Yıl Garanti</h4>
+                  <p class="text-xs text-slate-500">İşçilik & orijinal parça</p>
+                </div>
+              </div>
+
+              <div class="col-span-2 sm:col-span-1 flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0">
+                  <i data-lucide="clock" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-sm text-slate-900">30 Dk Müdahale</h4>
+                  <p class="text-xs text-slate-500">Mobil gezici ekipler</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Sağ Taraf: Hızlı Servis Talep Kartı (Hero Lead Form) -->
+          <div class="lg:col-span-5">
+            <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-slate-100 relative">
+              <div class="absolute -top-3.5 right-6 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white text-xs font-black uppercase tracking-wider py-1 px-3.5 rounded-full shadow-md">
+                ⚡ 15 Dakikada Geri Dönüş
+              </div>
+
+              <div class="mb-5">
+                <h3 class="text-xl font-bold text-slate-900">Hızlı Servis Kaydı Aç</h3>
+                <p class="text-xs text-slate-500">Bilgilerinizi bırakın, nöbetçi teknisyenimiz 5 dakika içinde sizi arasın.</p>
+              </div>
+
+              <form id="hero-quick-form" class="space-y-4">
+                <div>
+                  <label class="block text-xs font-bold text-slate-700 mb-1">Adınız Soyadınız *</label>
+                  <div class="relative">
+                    <i data-lucide="user" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
+                    <input type="text" id="hero-name" required placeholder="Örn: Ahmet Yılmaz" class="w-full pl-10 pr-3 py-2.5 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500" />
+                  </div>
+                </div>
+
+                <div>
+                  <label class="block text-xs font-bold text-slate-700 mb-1">Telefon Numaranız *</label>
+                  <div class="relative">
+                    <i data-lucide="phone" class="w-4 h-4 text-slate-400 absolute left-3.5 top-3.5"></i>
+                    <input type="tel" id="hero-phone" required placeholder="05XX XXX XX XX" class="w-full pl-10 pr-3 py-2.5 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500" />
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                  <div>
+                    <label class="block text-xs font-bold text-slate-700 mb-1">Hizmet Türü</label>
+                    <select id="hero-service" class="w-full px-3 py-2.5 rounded-xl border border-slate-200 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-brand-500">
+                      <option value="kombi">Kombi Servisi</option>
+                      <option value="klima">Klima Servisi</option>
+                      <option value="tesisat">Su Kaçağı / Tesisat</option>
+                      <option value="petek">Petek Temizliği</option>
+                      <option value="diger">Diğer / Acil</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="block text-xs font-bold text-slate-700 mb-1">Aciliyet</label>
+                    <select id="hero-urgency" class="w-full px-3 py-2.5 rounded-xl border border-slate-200 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-brand-500">
+                      <option value="acil">Acil (Hemen Gelsin)</option>
+                      <option value="bugun">Bugün İçinde</option>
+                      <option value="yarin">Yarın veya İleri Tarih</option>
+                    </select>
+                  </div>
+                </div>
+
+                <button type="submit" class="w-full py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-extrabold text-sm shadow-lg shadow-brand-600/30 transition transform active:scale-95 flex items-center justify-center gap-2">
+                  <i data-lucide="send" class="w-4 h-4"></i>
+                  <span>Ücretsiz Servis Talebi Gönder</span>
+                </button>
+              </form>
+
+              <!-- Hero Success Message -->
+              <div id="hero-success" class="hidden mt-3 p-3 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-bold text-center">
+                ✓ Talebiniz alındı! Nöbetçi teknisyenimiz 5 dk içinde arıyor.
+              </div>
+
+              <p class="text-[11px] text-slate-400 text-center mt-3 flex items-center justify-center gap-1">
+                <i data-lucide="lock" class="w-3 h-3"></i>
+                Kişisel verileriniz KVKK kapsamında korunmaktadır.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Canlı İstatistikler & Rakamlarla Güven -->
+    <section class="bg-slate-900 text-white py-10 border-y border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div class="p-4 rounded-2xl bg-slate-800/40 border border-slate-800">
+            <div class="text-3xl sm:text-4xl font-black text-brand-400 mb-1">18.500+</div>
+            <div class="text-xs sm:text-sm text-slate-400 font-medium">Memnun Ev Sahibi</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-800/40 border border-slate-800">
+            <div class="text-3xl sm:text-4xl font-black text-accent-400 mb-1">28 Dakika</div>
+            <div class="text-xs sm:text-sm text-slate-400 font-medium">Ortalama Adrese Varış</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-800/40 border border-slate-800">
+            <div class="text-3xl sm:text-4xl font-black text-emerald-400 mb-1">365 Gün</div>
+            <div class="text-xs sm:text-sm text-slate-400 font-medium">Resmi Parça & İşçilik Garantisi</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-800/40 border border-slate-800">
+            <div class="text-3xl sm:text-4xl font-black text-amber-400 mb-1">4.9 / 5.0</div>
+            <div class="text-xs sm:text-sm text-slate-400 font-medium">Google İnceleme Skoru</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. İNTERAKTİF FİYAT VE SERVİS HESAPLAYICI (Kritik Dönüşüm Aracı) -->
+    <section id="hesaplayici" class="py-20 bg-white">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <span class="text-xs font-bold text-brand-600 uppercase tracking-widest bg-brand-50 px-3 py-1 rounded-full">Şeffaf Fiyatlandırma</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">Tahmini Servis Ücretinizi Hesaplayın</h2>
+          <p class="text-slate-600 text-sm sm:text-base mt-2">Gizli maliyet veya sürpriz fatura yok. İhtiyacınızı seçin, yaklaşık maliyetinizi anında görün.</p>
+        </div>
+
+        <div class="bg-gradient-to-br from-slate-50 to-brand-50/40 p-6 sm:p-10 rounded-3xl border border-slate-200 shadow-xl">
+          
+          <div class="grid md:grid-cols-3 gap-6 mb-8">
+            
+            <!-- 1. Hizmet Seçimi -->
+            <div>
+              <label class="block text-xs font-bold text-slate-800 mb-2 uppercase tracking-wide flex items-center gap-1.5">
+                <span class="w-5 h-5 rounded-full bg-brand-600 text-white flex items-center justify-center text-[10px]">1</span>
+                Hizmet Alanı
+              </label>
+              <select id="calc-service" class="w-full p-3.5 rounded-xl border border-slate-300 bg-white text-sm font-semibold text-slate-700 shadow-sm focus:ring-2 focus:ring-brand-500 focus:border-brand-500">
+                <option value="kombi_bakim" data-base="750" data-name="Kombi Periyodik Bakım">Kombi Yıllık Bakımı</option>
+                <option value="kombi_ariza" data-base="950" data-name="Kombi Arıza Teşhis & Onarım">Kombi Arıza Onarımı</option>
+                <option value="klima_bakim" data-base="800" data-name="Klima Ozon Temizlik & Bakım">Klima Bakım & Dezenfeksiyon</option>
+                <option value="klima_gaz" data-base="1100" data-name="Klima Gaz Dolumu + Kaçak Testi">Klima Gaz Basımı (R410/R32)</option>
+                <option value="su_kacagi" data-base="1250" data-name="Kameralı Noktasal Su Kaçağı Tespiti">Kameralı Su Kaçağı Tespiti</option>
+                <option value="petek_temizlik" data-base="900" data-name="Makineli Kimyasallı Petek Temizliği">Petek & Tesisat Temizliği</option>
+              </select>
+            </div>
+
+            <!-- 2. Mekan / Cihaz Adedi -->
+            <div>
+              <label class="block text-xs font-bold text-slate-800 mb-2 uppercase tracking-wide flex items-center gap-1.5">
+                <span class="w-5 h-5 rounded-full bg-brand-600 text-white flex items-center justify-center text-[10px]">2</span>
+                Mekan / Cihaz Tipi
+              </label>
+              <select id="calc-type" class="w-full p-3.5 rounded-xl border border-slate-300 bg-white text-sm font-semibold text-slate-700 shadow-sm focus:ring-2 focus:ring-brand-500 focus:border-brand-500">
+                <option value="daire_standart" data-mult="1.0">Standart Daire (1-3 Oda)</option>
+                <option value="daire_buyuk" data-mult="1.25">Büyük Daire / Dubleks (4+ Oda)</option>
+                <option value="villa" data-mult="1.6">Müstakil Ev / Villa</option>
+                <option value="ofis" data-mult="1.4">İş Yeri / Ofis</option>
+              </select>
+            </div>
+
+            <!-- 3. Aciliyet Durumu -->
+            <div>
+              <label class="block text-xs font-bold text-slate-800 mb-2 uppercase tracking-wide flex items-center gap-1.5">
+                <span class="w-5 h-5 rounded-full bg-brand-600 text-white flex items-center justify-center text-[10px]">3</span>
+                Servis Zamanı
+              </label>
+              <select id="calc-urgency" class="w-full p-3.5 rounded-xl border border-slate-300 bg-white text-sm font-semibold text-slate-700 shadow-sm focus:ring-2 focus:ring-brand-500 focus:border-brand-500">
+                <option value="standart" data-extra="0">Planlı Randevu (Gündüz / Hafta İçi)</option>
+                <option value="bugun" data-extra="150">Bugün İçinde Hızlı Servis</option>
+                <option value="acil" data-extra="300">7/24 Acil Gece / Nöbetçi Ekip</option>
+              </select>
+            </div>
+
+          </div>
+
+          <!-- Hesaplama Çıktı Kartı -->
+          <div class="bg-white rounded-2xl p-6 border border-slate-200 flex flex-col md:flex-row items-center justify-between gap-6 shadow-md">
+            <div>
+              <span class="text-xs font-bold text-slate-500 uppercase tracking-wider">Tahmini Şeffaf Fiyat Aralığı</span>
+              <div class="flex items-baseline gap-2 mt-1">
+                <span id="price-display" class="text-3xl sm:text-4xl font-extrabold text-brand-700">₺750 - ₺950</span>
+                <span class="text-xs text-slate-400 font-medium">(KDV ve İşçilik Dahil)</span>
+              </div>
+              <ul class="flex flex-wrap gap-y-1 gap-x-4 text-xs text-slate-600 mt-2">
+                <li class="flex items-center text-emerald-600 font-semibold"><i data-lucide="check" class="w-3.5 h-3.5 mr-1"></i> Ücretsiz Arıza Teşhisi*</li>
+                <li class="flex items-center text-emerald-600 font-semibold"><i data-lucide="check" class="w-3.5 h-3.5 mr-1"></i> 1 Yıl Parça Garantisi</li>
+                <li class="flex items-center text-emerald-600 font-semibold"><i data-lucide="check" class="w-3.5 h-3.5 mr-1"></i> Kredi Kartı ile Kapıda Ödeme</li>
+              </ul>
+            </div>
+
+            <div class="w-full md:w-auto">
+              <button id="book-calc-btn" class="w-full md:w-auto px-8 py-4 rounded-xl bg-accent-600 hover:bg-accent-700 text-white font-extrabold text-sm shadow-lg shadow-accent-600/30 transition transform hover:-translate-y-0.5 flex items-center justify-center gap-2">
+                <i data-lucide="calendar-check" class="w-4 h-4"></i>
+                Bu Fiyatla Randevu Al
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. Hizmetlerimiz (Şeffaf Kartlar) -->
+    <section id="hizmetler" class="py-20 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="text-xs font-bold text-brand-600 uppercase tracking-widest bg-brand-100 px-3 py-1 rounded-full">Uzmanlık Alanlarımız</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">Profesyonel Teknik Servis Hizmetleri</h2>
+          <p class="text-slate-600 text-sm sm:text-base mt-2">Evinizin tüm iklimlendirme ve tesisat ihtiyaçları için tek noktadan güvenilir çözüm.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <!-- Hizmet 1: Kombi -->
+          <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="w-14 h-14 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-amber-600 group-hover:text-white transition duration-300">
+                <i data-lucide="flame" class="w-7 h-7"></i>
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-2">Kombi Bakım & Onarım</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                Tüm marka ve modellerde yetkili seviyesinde servis. Yanma odası temizliği, genleşme tankı gaz kontrolü, sirkülasyon pompası testi ve orijinal yedek parça değişimi.
+              </p>
+              <ul class="space-y-2.5 text-xs font-medium text-slate-700 mb-6">
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> %25 Yakıt Tasarruf Ayarı</li>
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> 1 Yıl Orijinal Parça Garantisi</li>
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> Karbonmonoksit Kaçak Testi</li>
+              </ul>
+            </div>
+            <a href="#randevu" class="pt-4 border-t border-slate-100 flex items-center justify-between text-brand-600 font-bold text-sm hover:text-brand-800">
+              <span>Kombi Randevusu Al</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Hizmet 2: Klima -->
+          <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="w-14 h-14 rounded-2xl bg-sky-50 text-sky-600 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-sky-600 group-hover:text-white transition duration-300">
+                <i data-lucide="wind" class="w-7 h-7"></i>
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-2">Klima Bakım, Gaz & Montaj</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                Sağlığınızı tehdit eden bakteri ve lejyonellaya karşı ozonlu anti-bakteriyel hijyen temizliği. R32 ve R410 hassas gaz dolumu, demontaj ve profesyonel montaj.
+              </p>
+              <ul class="space-y-2.5 text-xs font-medium text-slate-700 mb-6">
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> Özel İlaçlı Derin Serpantin Temizliği</li>
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> Manometreli Hassas Gaz Ölçümü</li>
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> Sessiz Çalışma ve Performans Ayarı</li>
+              </ul>
+            </div>
+            <a href="#randevu" class="pt-4 border-t border-slate-100 flex items-center justify-between text-brand-600 font-bold text-sm hover:text-brand-800">
+              <span>Klima Randevusu Al</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Hizmet 3: Su Kaçağı & Tesisat -->
+          <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="w-14 h-14 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition duration-300">
+                <i data-lucide="droplets" class="w-7 h-7"></i>
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-2">Termal Kameralı Su Kaçağı</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                Evinizi kırmadan dökmeden, Alman malı akustik dinleme ve termal kamera teknolojisiyle boru kaçaklarını santimetrik olarak tespit edip sadece hasarlı noktayı onarıyoruz.
+              </p>
+              <ul class="space-y-2.5 text-xs font-medium text-slate-700 mb-6">
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> %100 Noktasal Tespit Garantisi</li>
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> Kırmadan Kameralı Görüntüleme</li>
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> Sigorta Uyumlu Rapor Düzenleme</li>
+              </ul>
+            </div>
+            <a href="#randevu" class="pt-4 border-t border-slate-100 flex items-center justify-between text-brand-600 font-bold text-sm hover:text-brand-800">
+              <span>Kaçak Tespiti Çağır</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Hizmet 4: Petek Temizliği -->
+          <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="w-14 h-14 rounded-2xl bg-red-50 text-red-600 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-red-600 group-hover:text-white transition duration-300">
+                <i data-lucide="thermometer-snowflake" class="w-7 h-7"></i>
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-2">Makineli Petek Temizliği</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                Peteklerin altı ısınıp üstü ısınmıyorsa çamur ve kireç tıkanıklığı vardır. Çift yönlü darbeli yıkama makinesi ve koruyucu kimyasalla tüm hattı sıfırlıyoruz.
+              </p>
+              <ul class="space-y-2.5 text-xs font-medium text-slate-700 mb-6">
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> Evinizi Kirletmeden Banyodan Bağlantı</li>
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> Termal Kamera ile Öncesi/Sonrası Isı Testi</li>
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> Korozyon Önleyici Koruma Kimyasalı</li>
+              </ul>
+            </div>
+            <a href="#randevu" class="pt-4 border-t border-slate-100 flex items-center justify-between text-brand-600 font-bold text-sm hover:text-brand-800">
+              <span>Petek Temizliği İste</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Hizmet 5: Akıllı Ev & Termostat -->
+          <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="w-14 h-14 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-indigo-600 group-hover:text-white transition duration-300">
+                <i data-lucide="cpu" class="w-7 h-7"></i>
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-2">Akıllı Termostat Montajı</h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                Nest, Netatmo, Danfoss ve Honeywell gibi akıllı termostatların kombi anakartına güvenli bağlantısı, telefon kurulumu ve otomasyon senaryoları.
+              </p>
+              <ul class="space-y-2.5 text-xs font-medium text-slate-700 mb-6">
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> Faturada %30'a Varan Tasarruf</li>
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> Cepten Uzaktan Sıcaklık Kontrolü</li>
+                <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500"></i> Kablosuz ve Modülasyonlu Uyum</li>
+              </ul>
+            </div>
+            <a href="#randevu" class="pt-4 border-t border-slate-100 flex items-center justify-between text-brand-600 font-bold text-sm hover:text-brand-800">
+              <span>Akıllı Ev Kurulumu</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Hizmet 6: 7/24 Acil Müdahale -->
+          <div class="bg-gradient-to-br from-brand-900 to-slate-900 text-white rounded-3xl p-8 shadow-xl flex flex-col justify-between relative overflow-hidden">
+            <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-accent-500/20 rounded-full blur-2xl"></div>
+            <div>
+              <div class="w-14 h-14 rounded-2xl bg-accent-500/20 border border-accent-500/30 text-accent-400 flex items-center justify-center mb-6">
+                <i data-lucide="siren" class="w-7 h-7 animate-pulse"></i>
+              </div>
+              <div class="inline-block px-2.5 py-0.5 rounded-full bg-red-500/30 text-red-300 text-xs font-bold mb-3 border border-red-500/40">7/24 Nöbetçi Ekip</div>
+              <h3 class="text-xl font-bold mb-2">Acil Su Baskını & Gaz Kokusu</h3>
+              <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                Gece yarısı patlayan su boruları, gaz kokusu veya kışın duran kombiler için nöbetçi mobil teknisyenlerimiz hazır bekliyor.
+              </p>
+            </div>
+            <a href="tel:08503004050" class="w-full py-3.5 rounded-xl bg-accent-600 hover:bg-accent-700 text-white font-extrabold text-sm flex items-center justify-center gap-2 shadow-lg transition">
+              <i data-lucide="phone-call" class="w-4 h-4"></i>
+              <span>Acil Nöbetçiyi Ara</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. İŞ KALİTESİ: ÖNCESİ & SONRASI (Before/After Etkileşimli Kaydırıcı) -->
+    <section id="oncesi-sonrasi" class="py-20 bg-white border-y border-slate-200">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <span class="text-xs font-bold text-brand-600 uppercase tracking-widest bg-brand-50 px-3 py-1 rounded-full">Farkı Gözlerinizle Görün</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">İşçilik ve Bakım Kalitemiz</h2>
+          <p class="text-slate-600 text-sm sm:text-base mt-2">Çubuğu sağa sola kaydırarak kireç bağlamış bir kombi/klima parçası ile TermoTek derin temizliği sonrası farkı inceleyin.</p>
+        </div>
+
+        <!-- Etkileşimli Slider Kapsayıcı -->
+        <div class="relative w-full max-w-3xl mx-auto h-80 sm:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-slate-100 select-none cursor-ew-resize" id="before-after-container">
+          
+          <!-- Sonrası (Temizlenmiş - Alttaki Katman) -->
+          <div class="absolute inset-0 w-full h-full bg-gradient-to-r from-emerald-700 via-teal-800 to-slate-900 flex flex-col items-center justify-center text-white p-8">
+            <div class="w-20 h-20 rounded-full bg-emerald-500/20 border-2 border-emerald-400 flex items-center justify-center mb-4">
+              <i data-lucide="sparkles" class="w-10 h-10 text-emerald-300"></i>
+            </div>
+            <span class="px-4 py-1 rounded-full bg-emerald-500 text-white font-extrabold text-xs tracking-wider uppercase mb-2 shadow">TermoTek Sonrası</span>
+            <h3 class="text-2xl sm:text-3xl font-black text-center">%100 Hijyen & Maksimum Verim</h3>
+            <p class="text-slate-300 text-xs sm:text-sm text-center max-w-md mt-1">
+              Ozonla dezenfekte edilmiş serpantin, kireçten arındırılmış eşanjör, sıfır gürültü ve fabrika verimliliği.
+            </p>
+          </div>
+
+          <!-- Öncesi (Kirli/Tıkalı - Üstteki Katman - Genişliği JS ile kontrol edilir) -->
+          <div id="before-layer" class="absolute inset-0 h-full overflow-hidden bg-gradient-to-r from-amber-950 via-stone-900 to-neutral-900 flex flex-col items-center justify-center text-white p-8 border-r-4 border-white shadow-2xl" style="width: 50%;">
+            <div class="w-20 h-20 rounded-full bg-amber-500/20 border-2 border-amber-500 flex items-center justify-center mb-4">
+              <i data-lucide="alert-triangle" class="w-10 h-10 text-amber-400"></i>
+            </div>
+            <span class="px-4 py-1 rounded-full bg-amber-600 text-white font-extrabold text-xs tracking-wider uppercase mb-2 shadow">Bakım Öncesi</span>
+            <h3 class="text-2xl sm:text-3xl font-black text-center">Tıkalı & Yüksek Fatura Sebebi</h3>
+            <p class="text-slate-300 text-xs sm:text-sm text-center max-w-md mt-1">
+              Kireç bağlamış filtreler, bakteri yuvası serpantin ve %40 boşa harcanan doğal gaz/elektrik.
+            </p>
+          </div>
+
+          <!-- Sürükleme Tutacağı (Slider Handle) -->
+          <div id="slider-handle" class="absolute top-0 bottom-0 w-1 bg-white flex items-center justify-center pointer-events-none" style="left: 50%;">
+            <div class="w-10 h-10 rounded-full bg-white text-slate-800 shadow-2xl flex items-center justify-center font-bold text-xs border-2 border-slate-300 -ml-0.5">
+              <i data-lucide="chevrons-left-right" class="w-5 h-5 text-slate-700"></i>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="text-center text-xs text-slate-400 mt-4 flex items-center justify-center gap-1">
+          <i data-lucide="hand" class="w-3.5 h-3.5"></i>
+          Farkı görmek için yukarıdaki alanı farenizle veya parmağınızla sağa-sola kaydırın.
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 8. GÜVEN & YETKİ BELGELERİ (Neden Biz?) -->
+    <section id="guvenceler" class="py-20 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <span class="text-xs font-bold text-brand-600 uppercase tracking-widest bg-brand-100 px-3 py-1 rounded-full">Güven ve Güvencelerimiz</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 leading-tight">
+              Evinizi Yetkisiz ve Çantacı Ustalara Emanet Etmeyin.
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base mt-4 leading-relaxed">
+              Her yıl binlerce ev sahibi, kaydı bulunmayan ve iş bitince telefonunu kapatan sahte servisler yüzünden mağdur olmaktadır. TermoTek Pro olarak tüm süreçlerimizi yasal güvenceler altına alıyoruz.
+            </p>
+
+            <div class="mt-8 space-y-5">
+              
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-2xl bg-brand-100 text-brand-700 flex items-center justify-center shrink-0">
+                  <i data-lucide="award" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-slate-900 text-base">MYK & Mesleki Yeterlilik Belgeli Kadro</h4>
+                  <p class="text-xs sm:text-sm text-slate-500 mt-0.5">Kapınıza gelen her teknisyenimiz Mesleki Yeterlilik Kurumu (MYK) onaylı kimlik kartına sahiptir.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0">
+                  <i data-lucide="file-check-2" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-slate-900 text-base">Islak İmzalı 1 Yıl Garanti Belgesi</h4>
+                  <p class="text-xs sm:text-sm text-slate-500 mt-0.5">Değişen parçalar ve yapılan tüm işçilik resmi servis faturası ve 365 gün sistem kayıtlı garanti altındadır.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-2xl bg-indigo-100 text-indigo-700 flex items-center justify-center shrink-0">
+                  <i data-lucide="shield-alert" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-slate-900 text-base">1.000.000 TL Mesleki Sorumluluk Sigortası</h4>
+                  <p class="text-xs sm:text-sm text-slate-500 mt-0.5">Servis esnasında evinizde oluşabilecek her türlü olası kaza veya hasara karşı sigortalı usta teminatı.</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Sağ Taraf: Sertifika & Usta Kartı Görsel Tasarımı -->
+          <div class="relative">
+            <div class="bg-gradient-to-tr from-brand-700 to-slate-900 rounded-3xl p-8 text-white shadow-2xl relative overflow-hidden">
+              <div class="absolute -top-10 -right-10 w-48 h-48 bg-accent-500/20 rounded-full blur-3xl"></div>
+              
+              <div class="flex items-center justify-between border-b border-white/10 pb-6 mb-6">
+                <div>
+                  <span class="text-xs font-semibold text-brand-300 uppercase">Resmi Kayıtlı Firma</span>
+                  <h3 class="text-2xl font-black mt-0.5">TermoTek Hizmet Güvencesi</h3>
+                </div>
+                <div class="w-14 h-14 rounded-2xl bg-white/10 flex items-center justify-center">
+                  <i data-lucide="badge-check" class="w-8 h-8 text-emerald-400"></i>
+                </div>
+              </div>
+
+              <div class="space-y-4 text-sm text-slate-200">
+                <div class="flex justify-between items-center py-2 border-b border-white/5">
+                  <span class="text-slate-400">Vergi Dairesi / No:</span>
+                  <span class="font-bold text-white">Kadıköy V.D. / 4810291823</span>
+                </div>
+                <div class="flex justify-between items-center py-2 border-b border-white/5">
+                  <span class="text-slate-400">TSE Hizmet Yeterlilik:</span>
+                  <span class="font-bold text-emerald-400 flex items-center gap-1"><i data-lucide="check" class="w-4 h-4"></i> TSE HYB 12053</span>
+                </div>
+                <div class="flex justify-between items-center py-2 border-b border-white/5">
+                  <span class="text-slate-400">Kullanılan Parçalar:</span>
+                  <span class="font-bold text-white">%100 Orijinal & Barkodlu</span>
+                </div>
+                <div class="flex justify-between items-center py-2">
+                  <span class="text-slate-400">Ödeme Yöntemleri:</span>
+                  <span class="font-bold text-white">Nakit, Havale, Kapıda Kredi Kartı</span>
+                </div>
+              </div>
+
+              <div class="mt-8 pt-6 border-t border-white/10 flex items-center justify-between">
+                <div class="flex -space-x-2">
+                  <div class="w-10 h-10 rounded-full bg-brand-500 border-2 border-slate-900 flex items-center justify-center text-xs font-bold">EK</div>
+                  <div class="w-10 h-10 rounded-full bg-accent-500 border-2 border-slate-900 flex items-center justify-center text-xs font-bold">MY</div>
+                  <div class="w-10 h-10 rounded-full bg-emerald-500 border-2 border-slate-900 flex items-center justify-center text-xs font-bold">SO</div>
+                </div>
+                <span class="text-xs font-semibold text-slate-300">18 Sertifikalı Usta Görevde</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 9. DOĞRULANMIŞ GOOGLE MÜŞTERİ YORUMLARI (Sosyal Kanıt) -->
+    <section id="yorumlar" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row items-center justify-between mb-14">
+          <div>
+            <div class="flex items-center gap-2 mb-2">
+              <div class="flex text-amber-400">
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              </div>
+              <span class="font-extrabold text-slate-900 text-lg">4.9 / 5.0</span>
+            </div>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900">Gerçek Müşteri Deneyimleri</h2>
+            <p class="text-slate-600 text-sm mt-1">Google Maps ve Trustpilot üzerinden toplanmış doğrulanmış kullanıcı yorumları.</p>
+          </div>
+
+          <div class="mt-4 md:mt-0">
+            <a href="https://google.com" target="_blank" class="px-5 py-2.5 rounded-xl border border-slate-200 text-slate-700 font-bold text-xs flex items-center gap-2 hover:bg-slate-50 transition">
+              <i data-lucide="map-pin" class="w-4 h-4 text-brand-600"></i>
+              Google Tüm Yorumları Görüntüle
+            </a>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          
+          <!-- Yorum 1 -->
+          <div class="p-6 rounded-3xl bg-slate-50 border border-slate-200 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <div class="flex text-amber-400">
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                </div>
+                <span class="text-[11px] text-slate-400 font-medium">3 gün önce</span>
+              </div>
+              <p class="text-sm text-slate-700 leading-relaxed italic mb-6">
+                "Pazar günü akşamı kombimiz E03 arızası verip durdu, ev buz kesti. Çağrı merkezini aradıktan 25 dakika sonra Serkan Usta geldi. Parçayı hemen değiştirdi, garanti belgesini verdi. Hem kibar hem çok bilgiliydi."
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-4 border-t border-slate-200/60">
+              <div class="w-10 h-10 rounded-full bg-brand-600 text-white font-bold flex items-center justify-center text-sm">
+                BK
+              </div>
+              <div>
+                <h4 class="font-bold text-xs text-slate-900">Burak Korkmaz</h4>
+                <p class="text-[11px] text-emerald-600 font-medium flex items-center gap-1">
+                  <i data-lucide="check-circle" class="w-3 h-3"></i> Doğrulanmış Müşteri (Kadıköy)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Yorum 2 -->
+          <div class="p-6 rounded-3xl bg-slate-50 border border-slate-200 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <div class="flex text-amber-400">
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                </div>
+                <span class="text-[11px] text-slate-400 font-medium">1 hafta önce</span>
+              </div>
+              <p class="text-sm text-slate-700 leading-relaxed italic mb-6">
+                "Alt komşuma su damlıyordu, başka ustalar tüm banyoyu kırmamız lazım dedi. TermoTek termal kamerayla geldi, sadece 1 fayansı sökerek patlak dirseği bulup tamir etti. Bizi on binlerce liralık masraftan kurtardılar."
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-4 border-t border-slate-200/60">
+              <div class="w-10 h-10 rounded-full bg-accent-600 text-white font-bold flex items-center justify-center text-sm">
+                AY
+              </div>
+              <div>
+                <h4 class="font-bold text-xs text-slate-900">Ayşe Yıldırım</h4>
+                <p class="text-[11px] text-emerald-600 font-medium flex items-center gap-1">
+                  <i data-lucide="check-circle" class="w-3 h-3"></i> Doğrulanmış Müşteri (Beşiktaş)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Yorum 3 -->
+          <div class="p-6 rounded-3xl bg-slate-50 border border-slate-200 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <div class="flex text-amber-400">
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                  <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                </div>
+                <span class="text-[11px] text-slate-400 font-medium">2 hafta önce</span>
+              </div>
+              <p class="text-sm text-slate-700 leading-relaxed italic mb-6">
+                "Yaz gelmeden iki adet klimamızın ozonlu derin temizliğini yaptırdık. İçinden çıkan kire inanamadık. Hem kötü koku tamamen bitti hem de klima artık buz gibi üflüyor. Fiyat web sitesindeki hesaplayıcıda ne çıktıysa oydu."
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-4 border-t border-slate-200/60">
+              <div class="w-10 h-10 rounded-full bg-emerald-600 text-white font-bold flex items-center justify-center text-sm">
+                MD
+              </div>
+              <div>
+                <h4 class="font-bold text-xs text-slate-900">Murat Demirtaş</h4>
+                <p class="text-[11px] text-emerald-600 font-medium flex items-center gap-1">
+                  <i data-lucide="check-circle" class="w-3 h-3"></i> Doğrulanmış Müşteri (Ataşehir)
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 10. RANDEVU & TALEP FORMU BÖLÜMÜ -->
+    <section id="randevu" class="py-20 bg-slate-900 text-white relative overflow-hidden">
+      <div class="absolute inset-0 pointer-events-none">
+        <div class="absolute top-0 right-1/4 w-96 h-96 bg-brand-600/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-1/4 w-96 h-96 bg-accent-600/10 rounded-full blur-3xl"></div>
+      </div>
+
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center mb-12">
+          <span class="text-xs font-bold text-accent-400 uppercase tracking-widest bg-accent-500/10 px-3.5 py-1 rounded-full border border-accent-500/20">Anında Rezervasyon</span>
+          <h2 class="text-3xl sm:text-5xl font-black text-white mt-3">Yetkili Servis Randevusu Alın</h2>
+          <p class="text-slate-400 text-sm sm:text-base mt-2">Formu doldurun, randevunuzu hemen planlayalım veya sizi 5 dakika içinde arayalım.</p>
+        </div>
+
+        <div class="bg-slate-800/80 backdrop-blur-md rounded-3xl p-6 sm:p-10 border border-slate-700 shadow-2xl">
+          <form id="booking-form" class="space-y-6">
+            
+            <div class="grid sm:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Adınız Soyadınız *</label>
+                <input type="text" id="form-name" required placeholder="Ahmet Yılmaz" class="w-full px-4 py-3 rounded-xl bg-slate-900/80 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm" />
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Telefon Numaranız *</label>
+                <input type="tel" id="form-phone" required placeholder="05XX XXX XX XX" class="w-full px-4 py-3 rounded-xl bg-slate-900/80 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm" />
+              </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">İlçe / Bölge *</label>
+                <input type="text" id="form-district" required placeholder="Örn: Kadıköy, Bostancı" class="w-full px-4 py-3 rounded-xl bg-slate-900/80 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm" />
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Hizmet Alanı *</label>
+                <select id="form-service-select" class="w-full px-4 py-3 rounded-xl bg-slate-900/80 border border-slate-700 text-white focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm">
+                  <option value="kombi">Kombi Bakım / Arıza</option>
+                  <option value="klima">Klima Bakım / Montaj / Gaz</option>
+                  <option value="su_kacagi">Kameralı Su Kaçağı Tespiti</option>
+                  <option value="petek">Petek & Radyatör Temizliği</option>
+                  <option value="akilli_ev">Akıllı Termostat Kurulumu</option>
+                  <option value="acil">7/24 Acil Tesisat Müdahalesi</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Arıza veya Talep Açıklaması</label>
+              <textarea id="form-note" rows="3" placeholder="Örn: Kombi sıcak su vermiyor, hata kodu F28 yazıyor..." class="w-full px-4 py-3 rounded-xl bg-slate-900/80 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-accent-600 to-accent-500 hover:from-accent-700 hover:to-accent-600 text-white font-extrabold text-base shadow-xl shadow-accent-600/30 transition transform hover:-translate-y-0.5 flex items-center justify-center gap-2">
+              <i data-lucide="check-circle" class="w-5 h-5"></i>
+              <span>Servis Kaydını Onayla & Gönder</span>
+            </button>
+
+          </form>
+
+          <!-- Başarılı Gönderim Bildirimi (Gizli) -->
+          <div id="form-success-message" class="hidden mt-6 p-4 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 text-emerald-300 text-center text-sm font-semibold">
+            🎉 Servis kaydınız başarıyla oluşturuldu! Müşteri temsilcimiz 5 dakika içinde sizinle iletişime geçecektir.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 11. SIKÇA SORULAN SORULAR (Akordeon) -->
+    <section id="sss" class="py-20 bg-slate-50">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center mb-12">
+          <span class="text-xs font-bold text-brand-600 uppercase tracking-widest bg-brand-100 px-3 py-1 rounded-full">Aklınıza Takılanlar</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">Sıkça Sorulan Sorular</h2>
+          <p class="text-slate-600 text-sm mt-2">Hizmetlerimiz, servis garantisi ve çalışma şartlarımız hakkında merak ettikleriniz.</p>
+        </div>
+
+        <div class="space-y-4" id="faq-accordion">
+          
+          <!-- SSS 1 -->
+          <div class="faq-item bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+            <button class="faq-btn w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:text-brand-600 transition">
+              <span>Servis ekibiniz gerçekten 30 dakikada gelebiliyor mu?</span>
+              <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-300"></i>
+            </button>
+            <div class="faq-content hidden px-5 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-3">
+              Evet. İstanbul ve büyükşehir genelinde ana arterlerde konumlanmış 18 adet tam donanımlı mobil servis aracımız bulunmaktadır. Çağrınız açıldığında size en yakın konumdaki nöbetçi teknisyenimiz yönlendirilir.
+            </div>
+          </div>
+
+          <!-- SSS 2 -->
+          <div class="faq-item bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+            <button class="faq-btn w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:text-brand-600 transition">
+              <span>Fiyatlandırma nasıl yapılıyor? Sonradan ek masraf çıkar mı?</span>
+              <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-300"></i>
+            </button>
+            <div class="faq-content hidden px-5 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-3">
+              Kesinlikle ek sürpriz masraf çıkarılmaz. Ustamız arıza teşhisini yaptıktan sonra yapılacak işlemleri ve parça bedelini size yazılı/sözlü onaylatır. Siz onay vermeden hiçbir işleme başlanmaz.
+            </div>
+          </div>
+
+          <!-- SSS 3 -->
+          <div class="faq-item bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+            <button class="faq-btn w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:text-brand-600 transition">
+              <span>Takılan yedek parçaların garantisi var mı?</span>
+              <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-300"></i>
+            </button>
+            <div class="faq-content hidden px-5 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-3">
+              Evet. TermoTek Pro tarafından takılan tüm kombi ve klima parçaları orijinal olup, 1 yıl resmi servis garantilidir. İşlem sonunda garanti belgesi ve fatura teslim edilir.
+            </div>
+          </div>
+
+          <!-- SSS 4 -->
+          <div class="faq-item bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+            <button class="faq-btn w-full p-5 text-left font-bold text-slate-900 flex justify-between items-center hover:text-brand-600 transition">
+              <span>Kapıda kredi kartı ile ödeme yapabilir miyim?</span>
+              <i data-lucide="chevron-down" class="w-5 h-5 text-slate-400 transition-transform duration-300"></i>
+            </button>
+            <div class="faq-content hidden px-5 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-3">
+              Tüm araçlarımızda mobil POS cihazı bulunmaktadır. Kredi kartı, banka kartı, havale/EFT veya nakit olarak kapıda güvenle ödeme yapabilirsiniz. Taksit imkanı mevcuttur.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- 12. FOOTER (Kurumsal Bilgiler) -->
+  <footer class="bg-slate-950 text-slate-400 text-sm pt-16 pb-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
+        
+        <!-- Marka & Açıklama -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-700 to-accent-500 flex items-center justify-center text-white">
+              <i data-lucide="flame" class="w-5 h-5"></i>
+            </div>
+            <span class="text-xl font-black tracking-tight text-white">Termo<span class="text-brand-500">Tek</span> PRO</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400 leading-relaxed pr-6">
+            İstanbul genelinde 7/24 iklimlendirme, kombi, klima, termal kameralı su tesisatı ve akıllı ev otomasyonu çözümleri. Güvenilir, garantili ve şeffaf teknik servis hizmeti.
+          </p>
+          <div class="flex items-center space-x-3 pt-2">
+            <span class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center hover:bg-brand-600 hover:text-white transition cursor-pointer">
+              <i data-lucide="instagram" class="w-4 h-4"></i>
+            </span>
+            <span class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center hover:bg-brand-600 hover:text-white transition cursor-pointer">
+              <i data-lucide="facebook" class="w-4 h-4"></i>
+            </span>
+            <span class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center hover:bg-brand-600 hover:text-white transition cursor-pointer">
+              <i data-lucide="youtube" class="w-4 h-4"></i>
+            </span>
+          </div>
+        </div>
+
+        <!-- Hızlı Linkler -->
+        <div>
+          <h4 class="text-white font-bold text-sm mb-4">Hizmetlerimiz</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#hizmetler" class="hover:text-white transition">Kombi Bakım & Arıza</a></li>
+            <li><a href="#hizmetler" class="hover:text-white transition">Klima Montaj & Gaz</a></li>
+            <li><a href="#hizmetler" class="hover:text-white transition">Kameralı Kaçak Tespiti</a></li>
+            <li><a href="#hizmetler" class="hover:text-white transition">Petek Temizliği</a></li>
+            <li><a href="#hizmetler" class="hover:text-white transition">Akıllı Termostat</a></li>
+          </ul>
+        </div>
+
+        <!-- Hizmet Bölgeleri -->
+        <div>
+          <h4 class="text-white font-bold text-sm mb-4">Hizmet Bölgeleri</h4>
+          <ul class="space-y-2 text-xs">
+            <li>Kadıköy & Ataşehir</li>
+            <li>Beşiktaş & Şişli</li>
+            <li>Bakırköy & Florya</li>
+            <li>Ümraniye & Üsküdar</li>
+            <li>Tüm İlçe ve Mahalleler</li>
+          </ul>
+        </div>
+
+        <!-- İletişim -->
+        <div>
+          <h4 class="text-white font-bold text-sm mb-4">7/24 İletişim</h4>
+          <ul class="space-y-3 text-xs">
+            <li class="flex items-center gap-2">
+              <i data-lucide="phone-call" class="w-4 h-4 text-accent-500"></i>
+              <strong class="text-white">0850 300 40 50</strong>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="mail" class="w-4 h-4 text-brand-500"></i>
+              <span>servis@termotekpro.com</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="map-pin" class="w-4 h-4 text-slate-500 mt-0.5"></i>
+              <span>Merkez Mah. Teknik Sk. No:14/A Kadıköy, İstanbul</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="border-t border-slate-900 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <p>© 2026 TermoTek Pro Mühendislik & Teknik Servis A.Ş. Tüm hakları saklıdır.</p>
+        <div class="flex space-x-6">
+          <a href="#" class="hover:text-slate-300">Gizlilik Politikası</a>
+          <a href="#" class="hover:text-slate-300">Kullanım Şartları</a>
+          <a href="#" class="hover:text-slate-300">KVKK Aydınlatma Metni</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 13. MOBİL SABİT AKSİYON BARI (Sticky Mobile Quick Bar - Yüksek Dönüşüm) -->
+  <div class="fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-t border-slate-200 p-2.5 flex items-center justify-around gap-2 md:hidden shadow-[0_-4px_20px_rgba(0,0,0,0.08)]">
+    <a href="tel:08503004050" class="flex-1 py-3 px-3 rounded-xl bg-accent-600 text-white font-extrabold text-xs flex items-center justify-center gap-2 shadow-md">
+      <i data-lucide="phone-call" class="w-4 h-4 animate-bounce"></i>
+      <span>Hemen Ara</span>
+    </a>
+    <a href="https://wa.me/908503004050?text=Merhaba,%20teknik%20servis%20talebi%20icin%20yaziyorum." target="_blank" class="flex-1 py-3 px-3 rounded-xl bg-emerald-600 text-white font-extrabold text-xs flex items-center justify-center gap-2 shadow-md">
+      <i data-lucide="message-circle" class="w-4 h-4"></i>
+      <span>WhatsApp</span>
+    </a>
+    <a href="#hesaplayici" class="py-3 px-3 rounded-xl bg-slate-900 text-white font-bold text-xs flex items-center justify-center">
+      <i data-lucide="calculator" class="w-4 h-4"></i>
+    </a>
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
