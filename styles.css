@@ -1,0 +1,78 @@
+/* TermoTek Pro Özel CSS Stilleri */
+
+/* Yumuşak kaydırma ve temel ayarlar */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Before / After Slider Stilleri */
+#before-after-container {
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: pan-y;
+}
+
+#before-layer {
+  will-change: width;
+  transition: none;
+}
+
+#slider-handle {
+  will-change: left;
+  transition: none;
+}
+
+/* Pulsing Acil Durum Efekti */
+@keyframes softPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+}
+
+.pulse-badge {
+  animation: softPulse 2s infinite ease-in-out;
+}
+
+/* Input Focus Stilleri */
+input:focus, select:focus, textarea:focus {
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.2);
+}
+
+/* Akordeon yumuşak geçiş */
+.faq-content {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Kart hover yumuşak geçişleri */
+.group:hover .group-hover\:scale-110 {
+  transform: scale(1.1);
+}
+
+/* Özel Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
